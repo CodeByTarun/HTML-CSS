@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="./background.avif" alt="background">
+        <div class="logo">
+            <img src="./odin.png" alt="odin">
+            <h1>ODIN</h1>
+        </div>
+    </div>
+    <div class="main">
+        <div class="description">
+            <h1>This is not a real online service! 
+                You know you need something like this in your life to help you realize your deepest dreams. 
+                Sign up <em>now</em> to get started.
+                <br/><br/>
+                You <em>know</em> you want to.</h1>
+        </div>
+        <form class="form">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div class="form-col">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" name="lname" id="lname">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-col">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="password">PASSWORD</label>
+                        <input required type="password" name="password" id="password">
+                    </div>
+                    <div class="form-col">
+                        <label for="confirmpass">CONFIRM PASSWORD</label>
+                        <input required type="password" name="confirm-pass" id="confirm-pass">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="submitContainer">
+            <button type="submit" class="submit"><span class="button-text">Create Account</span></button>
+            <p>Already have an account? <a>Log In</a></p>
+        </div>
+    </div>
+</body>
+</html>
